@@ -1,0 +1,12 @@
+age = input("Are you cigarette addict older than 75 year-old? (Yes/No) ").title().strip() == "Yes"
+
+chronic = input("Do you have a severe chronic disease? : (Yes/No) ").title().strip() == "Yes"
+
+immune = input("Is your immune system too weak? : (Yes/No) ").title().strip() == "Yes"
+
+print("Age Answer : ", age, "\nChronic Answer : ", chronic, "\nImmune Answer : ", immune)
+
+if age or chronic or immune :
+    print("\n***In risky group. Stay at home...***")
+else:
+    print("\n***NOT in risky group. But please stay at home...***")
