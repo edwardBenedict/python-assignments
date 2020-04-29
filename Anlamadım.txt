@@ -1,4 +1,0 @@
-count = 0
-for i in ['bus']:
-    count += 1
-    print(i, count, end="")
